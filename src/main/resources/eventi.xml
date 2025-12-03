@@ -1,0 +1,82 @@
+<eventi>
+    <evento id="1">
+        <tipo>normale</tipo>
+        <testo>Hai trovato un portafoglio per terra. Cosa fai?</testo>
+        <sceltaA>
+            <testo>Lo restituisci al proprietario.</testo>
+            <salute>0</salute>
+            <felicita>5</felicita>
+            <denaro>0</denaro>
+            <energia>-10</energia>
+            <risultato>Hai cercato il proprietario per un paio di orette, e finalmente riesci a trovarlo.</risultato>
+        </sceltaA>
+        <sceltaB>
+            <testo>Lo tieni.</testo>
+            <salute>0</salute>
+            <felicita>-2</felicita>
+            <denaro>100</denaro>
+            <energia>0</energia>
+            <risultato>Ti tieni il portafoglio, ma ti senti un po' in colpa.</risultato>
+        </sceltaB>
+    </evento>
+    <evento id="2">
+        <tipo>positivo</tipo>
+        <testo>Hai vinto alla lotteria!</testo>
+        <sceltaA>
+            <testo>Ritira il premio.</testo>
+            <salute>0</salute>
+            <felicita>20</felicita>
+            <denaro>1000</denaro>
+            <energia>0</energia>
+            <risultato>Diventi ricco e felice!</risultato>
+        </sceltaA>
+        <sceltaB>
+            <testo>Ignora la vincita.</testo>
+            <salute>0</salute>
+            <felicita>-5</felicita>
+            <denaro>0</denaro>
+            <energia>0</energia>
+            <risultato>Non sfrutti la tua fortuna.</risultato>
+        </sceltaB>
+    </evento>
+    <evento id="3">
+        <tipo>negativo</tipo>
+        <testo>Hai perso il portafoglio.</testo>
+        <sceltaA>
+            <testo>Lo cerchi ovunque.</testo>
+            <salute>0</salute>
+            <felicita>-10</felicita>
+            <denaro>-100</denaro>
+            <energia>-20</energia>
+            <risultato>Non lo trovi e sei molto stressato.</risultato>
+        </sceltaA>
+        <sceltaB>
+            <testo>Lasci perdere.</testo>
+            <salute>0</salute>
+            <felicita>-5</felicita>
+            <denaro>-50</denaro>
+            <energia>0</energia>
+            <risultato>Perdi dei soldi ma almeno non ti stressi troppo.</risultato>
+        </sceltaB>
+    </evento>
+    <evento id="4">
+        <tipo>speciale</tipo>
+        <testo>Un mago ti dona energia infinita!</testo>
+        <sceltaA>
+            <testo>Accetta il dono.</testo>
+            <salute>0</salute>
+            <felicita>0</felicita>
+            <denaro>0</denaro>
+            <energia>999</energia>
+            <risultato>La tua energia viene riempita completamente!</risultato>
+        </sceltaA>
+        <sceltaB>
+            <testo>Rifiuta il dono.</testo>
+            <salute>0</salute>
+            <felicita>0</felicita>
+            <denaro>0</denaro>
+            <energia>0</energia>
+            <risultato>Rimani come sei, ma almeno non rischi nulla.</risultato>
+        </sceltaB>
+    </evento>
+</eventi>
